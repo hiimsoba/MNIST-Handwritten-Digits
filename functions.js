@@ -1,6 +1,5 @@
 // draws a 28x28 image to the canvas from the "data" provided, which is a 784 elements array, i believe
 function printImage(data) {
-  console.log(data);
   // creates the image, loads its pixels
   let img = createImage(28, 28);
   img.loadPixels();
